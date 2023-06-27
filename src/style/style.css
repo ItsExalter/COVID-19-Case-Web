@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Merriweather:ital,wght@1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #000;
+}
+
+h3, h4 {
+    font-family: 'Merriweather', serif;
+}
+
+a, i {
+    color: #ffffff !important;
+}
+
+.text-decoration-none:hover {
+    opacity: 0.7;
+}
+
+.jumbotron {
+    margin-top: 60px;
+    background-image: url(/src/image/bg-image.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.card {
+    border-radius: 50px !important;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #5A5A5A;
+}
+
+.search-input{
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 100%;
+    line-height: 40px;
+}
+
+.search-input::placeholder {
+    color: #ffffff;
+}
+
+.vip-card {
+    max-width: 500px;
+}
+
+footer {
+    background-color: #252525;
+}
